@@ -3,7 +3,7 @@ title: 前端小白自学日记
 SEOTitle: 猫猫虫的前端小白自学日记 - 快乐每一天
 header-img: /img/john-mosaic.jpeg
 email: zyyzqr@126.com
-description: "一起学习，一起成长，成为更快乐的大人"
+description: "一起学习，一起长大，成为更快乐的大人"
 keyword: "前端, 计算机, 自学, 算法与数据结构, 机器学习"
 url: "https://zyyzqr.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -62,11 +62,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: d18b343dd9c7ca49518a                            #生成的clientID
-  clientSecret: 539e88b8a7feffaddbb553b9c421dfefcbc6eced    #生成的clientSecret
-  repo: klovien.github.io    #仓库名称
-  owner: klovien    #github用户名
-  admin: klovien
+  clientID: 85b48d7ca06ac1e45e68                            #生成的clientID
+  clientSecret: 11238519373ae7b7a530b30cce7bf321637f61ee    #生成的clientSecret
+  repo: zyyzqr.github.io    #仓库名称
+  owner: zyyzqr    #github用户名
+  admin: zyyzqr
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
@@ -98,14 +98,14 @@ service-worker: true
 
 # 友情链接，请尽量不要删除，谢谢！
 friends: [
-    {
-        title: "星球国际语",
-        href: "https://globien.gitee.io"
-    },{
-        title: "星球语互动社区",
-        href: "https://tieba.baidu.com/f?kw=%E6%A0%BC%E7%BD%97%E6%AF%94%E8%A8%80&fr=home"
-    },{
-        title: "知乎：人造国际语",
-        href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
-    }
+    # {
+    #     title: "星球国际语",
+    #     href: "https://globien.gitee.io"
+    # },{
+    #     title: "星球语互动社区",
+    #     href: "https://tieba.baidu.com/f?kw=%E6%A0%BC%E7%BD%97%E6%AF%94%E8%A8%80&fr=home"
+    # },{
+    #     title: "知乎：人造国际语",
+    #     href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
+    # }
 ]
