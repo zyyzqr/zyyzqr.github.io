@@ -70,6 +70,14 @@ gitalk:
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
+# utterance评论： https://utteranc.es (参数配置详见主页)
+utterance:
+  enable: true
+  repo: 'zyyzqr/commit-utterance'     #仓库名字,格式：你的用户ID/仓库名称，如：blog/utterance_repo
+  issue_term: 'github-about'            #映射配置
+  theme: 'github-light'          #主题
+
+
 # 统计
 
 # Analytics settings

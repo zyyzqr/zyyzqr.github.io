@@ -88,6 +88,24 @@ header-img: "img/post-bg-rwd.jpg"
 </script>
 
 
+<!-- utterance评论：基于github issue的评论系统 start -->
+{% if site.utterance && site.utterance.enable %}
+    <section id="github-about" class="github-about">
+      <style>
+        .utterances{max-width: 100%;}
+      </style>
+        <script src="https://utteranc.es/client.js"
+                repo="{{site.utterance.repo}}"
+                issue-term="{{site.utterance.issue_term}}"
+                theme="{{site.utterance.theme}}"
+                crossorigin="anonymous"
+                async>
+        </script>
+  </section>
+{% endif %}
+<!-- utterance 评论 end -->
+
+
 <!-- Gitalk 评论 start  -->
 {% if site.gitalk.enable %}
 <!-- Gitalk link  -->
